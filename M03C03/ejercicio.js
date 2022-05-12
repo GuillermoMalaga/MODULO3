@@ -155,6 +155,16 @@ console.log(playlistnueva1.listaCanciones);
 //Agregar las funciones mostrarReparto (que muestre los actores en una tabla) y la función
 //agregarFavoritos, para poner la propiedad “favorito” en true (inicialmente debe ser false). A partir
 //de esta clase crear 3 objeto película.
+class Pelicula{
+    favorito=false;
+    constructor(nombre,anio,director,genero,reparto){
+        this.nombre=nombre;
+        this.anio=anio;
+        this.director=director;
+        this.genero=genero;
+        this.reparto=reparto;
+    }
+}
 
 //13.- Crear una clase llamada punto, que debe tener un valor para X y otro para Y.
 
