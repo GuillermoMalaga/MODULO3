@@ -7,3 +7,6 @@ var c={
 console.log(a);
 console.log(b);
 console.log(c);
+console.log("-----------------");
+console.log(a.__proto__);
+console.log(a.prototype);
